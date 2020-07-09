@@ -6,6 +6,16 @@ public class PostLogo {
     private String groupName;
     private String postAction;
     private int data;
+    private boolean friendsOnly;
+
+
+    public boolean isFriendsOnly() {
+        return friendsOnly;
+    }
+    public void setFriendsOnly(boolean friendsOnly) {
+        this.friendsOnly = friendsOnly;
+    }
+
 
     public int getOwnerId() {
         return ownerId;
