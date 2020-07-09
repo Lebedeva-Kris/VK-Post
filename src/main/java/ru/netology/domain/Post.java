@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-public class AttachmentsInfo {
+public class Post {
     private int signerId;
     private String photoUrl;
     private String postType;
