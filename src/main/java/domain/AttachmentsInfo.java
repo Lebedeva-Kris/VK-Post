@@ -1,6 +1,6 @@
 package domain;
 
-public class PostAttachment {
+public class AttachmentsInfo {
     private int signerId;
     private String photoUrl;
     private String postType;
