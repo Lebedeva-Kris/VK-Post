@@ -1,4 +1,4 @@
-package domain;
+package ru.netology.domain;
 
 public class LikesInfo {
     private int likeId;
