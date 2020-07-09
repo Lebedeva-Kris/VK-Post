@@ -1,17 +1,17 @@
 package domain;
 
 public class PostLogo {
-    private int id;
+    private int ownerId;
     private String imageUrl;
     private String groupName;
     private String postAction;
-    private int postData;
+    private int data;
 
-    public int getId() {
-        return id;
+    public int getOwnerId() {
+        return ownerId;
     }
-    public void setId(int id) {
-        this.id = id;
+    public void setOwnerId(int ownerId) {
+        this.ownerId = ownerId;
     }
 
 
@@ -39,11 +39,11 @@ public class PostLogo {
     }
 
 
-    public int getPostData() {
-        return postData;
+    public int getData() {
+        return data;
     }
-    public void setPostData(int postData) {
-        this.postData = postData;
+    public void setData(int data) {
+        this.data = data;
     }
 
 }
