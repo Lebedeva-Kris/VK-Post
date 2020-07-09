@@ -9,4 +9,5 @@ public class PostManager {
         return null;
     }
 
+    public void delete(int ownerId, int postId) {}
 }
