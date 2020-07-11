@@ -5,7 +5,7 @@ public class PostLogo {
     private String imageUrl;
     private String groupName;
     private String postAction;
-    private int data;
+    private int date;
     private boolean friendsOnly;
 
 
@@ -49,11 +49,11 @@ public class PostLogo {
     }
 
 
-    public int getData() {
-        return data;
+    public int getDate() {
+        return date;
     }
-    public void setData(int data) {
-        this.data = data;
+    public void setDate(int date) {
+        this.date = date;
     }
 
 }

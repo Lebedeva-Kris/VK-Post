@@ -4,7 +4,7 @@ public class PostSource {
     private int sourceId;
     private String type;
     private String platform;
-    private String data;
+    private String date;
     private String url;
 
 
@@ -32,11 +32,11 @@ public class PostSource {
     }
 
 
-    public String getData() {
-        return data;
+    public String getDate() {
+        return date;
     }
-    public void setData(String data) {
-        this.data = data;
+    public void setDate(String date) {
+        this.date = date;
     }
 
 
