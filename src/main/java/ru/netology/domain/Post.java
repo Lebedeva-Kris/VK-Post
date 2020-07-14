@@ -24,6 +24,7 @@ public class Post {
     private LikesInfo likesInfo;
     private RepostsInfo repostsInfo;
     private ViewsInfo viewsInfo;
+    private PostSource postSource;
 
 
     public int getId() {
@@ -210,6 +211,12 @@ public class Post {
     }
 
 
+    public PostSource getPostSource() {
+        return postSource;
+    }
+    public void setPostSource(PostSource postSource) {
+        this.postSource = postSource;
+    }
 
     //    private String imageUrl;
 //    private String groupName;
