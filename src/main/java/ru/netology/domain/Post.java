@@ -25,6 +25,7 @@ public class Post {
     private RepostsInfo repostsInfo;
     private ViewsInfo viewsInfo;
     private PostSource postSource;
+    private GeoInfo geoInfo;
 
 
     public int getId() {
@@ -217,6 +218,15 @@ public class Post {
     public void setPostSource(PostSource postSource) {
         this.postSource = postSource;
     }
+
+
+    public GeoInfo getGeoInfo() {
+        return geoInfo;
+    }
+    public void setGeoInfo(GeoInfo geoInfo) {
+        this.geoInfo = geoInfo;
+    }
+
 
     //    private String imageUrl;
 //    private String groupName;
