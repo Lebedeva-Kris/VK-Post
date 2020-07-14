@@ -23,6 +23,7 @@ public class Post {
     private CommentsInfo commentsInfo;
     private LikesInfo likesInfo;
     private RepostsInfo repostsInfo;
+    private ViewsInfo viewsInfo;
 
 
     public int getId() {
@@ -199,6 +200,15 @@ public class Post {
     public void setRepostsInfo(RepostsInfo repostsInfo) {
         this.repostsInfo = repostsInfo;
     }
+
+
+    public ViewsInfo getViewsInfo() {
+        return viewsInfo;
+    }
+    public void setViewsInfo(ViewsInfo viewsInfo) {
+        this.viewsInfo = viewsInfo;
+    }
+
 
 
     //    private String imageUrl;
