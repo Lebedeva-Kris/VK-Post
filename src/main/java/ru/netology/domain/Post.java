@@ -22,6 +22,7 @@ public class Post {
     private boolean isFavorite;
     private CommentsInfo commentsInfo;
     private LikesInfo likesInfo;
+    private RepostsInfo repostsInfo;
 
 
     public int getId() {
@@ -190,6 +191,16 @@ public class Post {
     public void setLikesInfo(LikesInfo likesInfo) {
         this.likesInfo = likesInfo;
     }
+
+
+    public RepostsInfo getRepostsInfo() {
+        return repostsInfo;
+    }
+    public void setRepostsInfo(RepostsInfo repostsInfo) {
+        this.repostsInfo = repostsInfo;
+    }
+
+
     //    private String imageUrl;
 //    private String groupName;
 //    private String postAction;
