@@ -21,6 +21,7 @@ public class Post {
     private boolean markedAsAds;
     private boolean isFavorite;
     private CommentsInfo commentsInfo;
+    private LikesInfo likesInfo;
 
 
     public int getId() {
@@ -182,6 +183,13 @@ public class Post {
         this.commentsInfo = commentsInfo;
     }
 
+
+    public LikesInfo getLikesInfo() {
+        return likesInfo;
+    }
+    public void setLikesInfo(LikesInfo likesInfo) {
+        this.likesInfo = likesInfo;
+    }
     //    private String imageUrl;
 //    private String groupName;
 //    private String postAction;
