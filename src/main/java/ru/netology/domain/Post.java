@@ -20,6 +20,7 @@ public class Post {
     private boolean isPinned;
     private boolean markedAsAds;
     private boolean isFavorite;
+    private CommentsInfo commentsInfo;
 
 
     public int getId() {
@@ -172,7 +173,16 @@ public class Post {
     public void setFavorite(boolean favorite) {
         isFavorite = favorite;
     }
-//    private String imageUrl;
+
+
+    public CommentsInfo getCommentsInfo() {
+        return commentsInfo;
+    }
+    public void setCommentsInfo(CommentsInfo commentsInfo) {
+        this.commentsInfo = commentsInfo;
+    }
+
+    //    private String imageUrl;
 //    private String groupName;
 //    private String postAction;
 //    private int date;
